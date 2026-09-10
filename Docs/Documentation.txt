@@ -1,0 +1,9 @@
+System design documentation
+
+Small game that quizzes player on a shakespearean sonnet, must get three right to win if you get three wrong you lose
+
+Sonnet is parsed into two seperate arrays, one with punctuation and one without. A random number generator is used
+to select a random word within the array without caring for punctuation attached to it. Then a printSonnet method
+substantiated in the Sonnet class is called to print the punctuated array until the word is reached and prompts the
+user for an answer. Answer is checked against the word(case and apostraphy sensitive) and then outputs correct or
+incorrect. Programs iterates until lose or win condition is met.
